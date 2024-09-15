@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Index Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('services')">Services</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <section id="home" class="active">
+        <h1>Welcome to the Home Page</h1>
+        <p>This is the home section of the dynamic index page.</p>
+      </section>
+
+      <section id="about">
+        <h1>About Us</h1>
+        <p>Learn more about our journey and mission.</p>
+      </section>
+
+      <section id="services">
+        <h1>Our Services</h1>
+        <p>We provide top-notch services to meet your needs.</p>
+      </section>
+
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us for more information.</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
